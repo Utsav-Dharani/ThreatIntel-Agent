@@ -1,0 +1,53 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# FastAPI / backend
+backend/.env
+backend/.env.*
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Oracle / local files
+*.wallet
+*.sso
+*.ora
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / generated files
+uploads/
+backend/uploads/
+exports/
+backend/exports/
