@@ -2,22 +2,20 @@
 .env
 .env.*
 !.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
 
 # Python
 venv/
+backend/venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
 .mypy_cache/
-
-# FastAPI / backend
-backend/.env
-backend/.env.*
-backend/venv/
-backend/__pycache__/
-backend/app/__pycache__/
 
 # Node / React
 node_modules/
@@ -38,7 +36,7 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Oracle / local files
+# Oracle / local database files
 *.wallet
 *.sso
 *.ora
