@@ -113,32 +113,5 @@ This is not a verified accuracy percentage. It is a quality signal that helps us
 - Mock/fallback mode support for development
 
 ---
-
-## System Architecture
-
-```txt
-React Frontend
-    |
-    | REST API
-    v
-FastAPI Backend
-    |
-    | Input Processing
-    v
-Text / URL / PDF Extractors
-    |
-    | Cleaned Content
-    v
-ThreatIntel AI Agent
-    |
-    | Structured JSON Output
-    v
-Validation + MITRE Enrichment + Rule-based Recommendations
-    |
-    | Stored Intelligence
-    v
-Oracle Database
-    |
-    | Saved Reports
     v
 React Dashboard
