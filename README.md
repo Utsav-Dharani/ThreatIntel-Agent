@@ -113,5 +113,3 @@ This is not a verified accuracy percentage. It is a quality signal that helps us
 - Mock/fallback mode support for development
 
 ---
-    v
-React Dashboard
